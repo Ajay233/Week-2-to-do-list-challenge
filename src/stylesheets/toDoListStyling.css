@@ -1,0 +1,53 @@
+#toDoMain {
+  /* background-image: url("../public/background2.jpg");
+  background-size: cover; */
+  background: linear-gradient(to right, #E4E5E6, #00416A);
+  height: 100%;
+  padding-top: 20px;
+}
+
+#toDoList {
+  width: 50%;
+  margin: 0 25%;
+  text-align: center;
+  height:100vh;
+  /* height:100%; */
+}
+
+h1, h2, h3{
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1{
+  margin-top: 0;
+  padding-top: 30px;
+  font-size: 60px;
+  text-shadow:
+       3px 3px 0 rgb(255, 255, 255),
+     -1px -1px 0 rgb(255, 255, 255),
+      1px -1px 0 rgb(255, 255, 255),
+      -1px 1px 0 rgb(255, 255, 255),
+       1px 1px 0 rgb(255, 255, 255);
+}
+
+.list {
+  text-align: left;
+  margin: 30px 0;
+  padding: 5px;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 7px;
+  width: 60%;
+}

@@ -1,0 +1,19 @@
+#notification {
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.success {
+  border: 3px solid rgb(124, 199, 49);
+  background-color: rgba(200, 200, 200, 0.7);
+}
+
+.error, .warning {
+  border: 3px solid rgb(224, 24, 24);
+  background-color: rgba(200, 200, 200, 0.7);
+}

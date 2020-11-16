@@ -1,0 +1,26 @@
+.todo {
+  font-family: 'Architects Daughter', cursive;
+  display: flex;
+  text-shadow:
+       3px 3px 0 rgb(255, 255, 255),
+     -1px -1px 0 rgb(255, 255, 255),
+      1px -1px 0 rgb(255, 255, 255),
+      -1px 1px 0 rgb(255, 255, 255),
+       1px 1px 0 rgb(255, 255, 255);
+}
+
+.todoText {
+  padding: 5px;
+  width: 90%;
+}
+
+.done {
+  text-decoration: line-through;
+  text-shadow: none
+}
+
+.checkbox {
+  width: 5%;
+  padding: 5px;
+  margin-top: 12px;
+}

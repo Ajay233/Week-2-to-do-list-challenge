@@ -1,0 +1,52 @@
+.iconBtn {
+  font-size: 16px;
+  border: none;
+  margin: 5px;
+  padding: 5px 3px;
+  width: 15%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.delete {
+  color: red;
+  width: 5%;
+}
+
+.delete:hover {
+  cursor: pointer;
+  color: rgb(197, 11, 14);
+}
+
+.add {
+  color: white;
+  border: 1px solid white;
+  background-color: rgb(0, 104, 217);
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: rgb(0, 84, 197);
+}
+
+.button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 8px 5px;
+  text-align: center;
+  border: solid 1px white;
+  text-decoration: none;
+}
+
+.standard {
+  background-color: rgb(0, 104, 217);
+}
+
+.standard:hover {
+  cursor: pointer;
+  background-color: rgb(0, 84, 197);
+  /* box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.19); */
+}
